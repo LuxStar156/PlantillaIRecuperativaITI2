@@ -26,10 +26,6 @@
 	<!-- GITHUB BUTTON JS -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
      
-    <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=994736563909741&autoLogAppEvents=1"></script>
-    
     <div class="page-wrapper">
         
         <!-- ******Header****** -->
@@ -46,15 +42,12 @@
                     <p>Trabajo recuperativo para Infraestructura</p>
                 </div><!--//tagline-->
                 
-	             <div class="main-search-box pt-3 pb-4 d-inline-block">
-	                 <form class="form-inline search-form justify-content-center" action="php/Logica.php" method="post">
-	            
-			            <input type="email" placeholder="Selecciona tu correo.." name="search" class="form-control search-input">
-			            
-			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-paper-plane"></i></button>
-			            
-			        </form>
-	             </div>
+                <div class="main-search-box pt-3 pb-4 d-inline-block">
+                    <form class="form-inline search-form justify-content-center" action="Logica.php" method="post">
+                        <input type="text" placeholder="Selecciona tu correo.." name="correo" class="form-control search-input">
+                        <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
                  
                 <div class="social-container">
 	                <!-- Replace with your Github Button -->
