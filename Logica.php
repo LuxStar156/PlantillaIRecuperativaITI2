@@ -4,12 +4,12 @@ $destinatario = $_POST['correo'];
 $asunto = "Este mensaje es para ti";
 $mensaje = "Hola, este es un mensaje de prueba.";
 
-
 // Configuración de la base de datos
 $servername = "localhost";
-$username = "root";
-$password = "hola1234";
-$dbname = "plantilla";
+$username = "lu";
+$password = "1234";
+$dbname = "ITI2";
+
 
 // Crear una conexión a la base de datos
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -26,7 +26,9 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
     // Enviar el correo
     $headers = "From: tu_email@example.com" . "\r\n" .
                "Reply-To: tu_email@example.com" . "\r\n" .
-               "X-Mailer: PHP/" . phpversion();
+          "X-Mailer: PHP/" . phpversion();
+
+    mail($destinatario, $asunto, $mensaje, $headers);
 
     if (mail($destinatario, $asunto, $mensaje, $headers)) {
         echo "Correo enviado correctamente.";
@@ -48,4 +50,5 @@ enviarCorreo($destinatario, $asunto, $mensaje);
 
 // Cerrar la conexión a la base de datos
 $conn->close();
+//header('location index.php');
 ?>

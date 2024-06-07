@@ -44,7 +44,7 @@
                 
                 <div class="main-search-box pt-3 pb-4 d-inline-block">
                     <form class="form-inline search-form justify-content-center" action="Logica.php" method="post">
-                        <input type="text" placeholder="Selecciona tu correo.." name="correo" class="form-control search-input">
+                        <input type="email" placeholder="Selecciona tu correo.." name="correo" class="form-control search-input">
                         <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
