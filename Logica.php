@@ -1,4 +1,7 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+
 // Obtener los datos del formulario
 $destinatario = $_POST['correo'];
 $asunto = "Este mensaje es para ti";
@@ -20,17 +23,38 @@ if ($conn->connect_error) {
 }
 
 // Función para enviar correos y guardarlos en la base de datos
+
+
+
 function enviarCorreo($destinatario, $asunto, $mensaje) {
     global $conn;
 
     // Enviar el correo
-    mail($destinatario, $asunto, $mensaje);
+    $mail = new PHPMailer(true);
 
-    if (mail($destinatario, $asunto, $mensaje)) {
+    try {
+        // Configuración del servidor de correo
+        $mail->isSMTP();
+        $mail->Host = 'luciano.poblete@virginiogomez.cl';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'luciano.poblete@virginiogomez.cl';
+        $mail->Password = 'Hola.1560';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+
+        $mail->setFrom('luciano.poblete@virginiogomez.cl', 'Luciano Poblete');
+        $mail->addAddress($destinatario);
+
+        $mail->isHTML(true);
+        $mail->Subject = $asunto;
+        $mail->Body = $mensaje;
+   
+        $mail->send();
         echo "Correo enviado correctamente.";
-    } else {
-        echo "Error al enviar el correo.";
+    } catch (Exception $e) {
+        echo "Error al enviar el correo: " . $mail->ErrorInfo;
     }
+   
 
     // Guardar el correo en la base de datos
     $sql = "INSERT INTO mensaje (mail, mensaje) VALUES ('$destinatario','$mensaje')";
