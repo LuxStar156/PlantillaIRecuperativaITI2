@@ -24,13 +24,9 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
     global $conn;
 
     // Enviar el correo
-    $headers = "From: tu_email@example.com" . "\r\n" .
-               "Reply-To: tu_email@example.com" . "\r\n" .
-          "X-Mailer: PHP/" . phpversion();
+    mail($destinatario, $asunto, $mensaje);
 
-    mail($destinatario, $asunto, $mensaje, $headers);
-
-    if (mail($destinatario, $asunto, $mensaje, $headers)) {
+    if (mail($destinatario, $asunto, $mensaje)) {
         echo "Correo enviado correctamente.";
     } else {
         echo "Error al enviar el correo.";

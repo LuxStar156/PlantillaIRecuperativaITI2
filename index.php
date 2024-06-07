@@ -39,7 +39,7 @@
                     </h1>
                 </div><!--//branding-->
                 <div class="tagline">
-                    <p>Trabajo recuperativo para Infraestructura</p>
+                    <p>Trabajo recuperativo para Infraestructura, puedes enviar un correo para confirmar que funcione</p>
                 </div><!--//tagline-->
                 
                 <div class="main-search-box pt-3 pb-4 d-inline-block">
@@ -79,7 +79,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Quick Start</h3>
                             <p class="intro">Demo example, consectetuer adipiscing elit</p>
-                            <a class="link" href="start.html"><span></span></a>
+                            
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-pink item-2 col-lg-4 col-6">
@@ -89,7 +89,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Components</h3>
                             <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                            <a class="link" href="components.html"><span></span></a>
+                            
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-blue col-lg-4 col-6">
@@ -99,7 +99,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Charts</h3>
                             <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                            <a class="link" href="charts.html"><span></span></a>
+                            
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-purple col-lg-4 col-6">
@@ -109,7 +109,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">FAQs</h3>
                             <p class="intro">Layout for FAQ page. Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                            <a class="link" href="faqs.html"><span></span></a>
+                            
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-primary col-lg-4 col-6">
@@ -119,7 +119,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Showcase</h3>
                             <p class="intro">Layout for showcase page. Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-                            <a class="link" href="showcase.html"><span></span></a>
+                            
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-orange col-lg-4 col-6">
@@ -129,7 +129,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">License &amp; Credits</h3>
                             <p class="intro">Layout for license &amp; credits page. Consectetuer adipiscing elit.</p>
-                            <a class="link" href="license.html"><span></span></a>
+                           
                         </div><!--//item-inner-->
                     </div><!--//item-->
                 </div><!--//cards-->
