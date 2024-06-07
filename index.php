@@ -64,9 +64,9 @@
         
         <section class="cards-section text-center">
             <div class="container">
-                <h2 class="title">Getting started is easy!</h2>
+                <h2 class="title">Bienvenido a mi plantilla genérica para projectos!</h2>
                 <div class="intro">
-                    <p>Welcome to prettyDocs. This landing page is an example of how you can use a card view to present segments of your documentation. You can customise the icon fonts based on your needs.</p>
+                    <p>Esta es la pagina predeterminada que utilizaré para futuros proyectos. Mas plantillas parecidas abajo en el boton de descargas </p>
                     <div class="cta-container">
                         <a class="btn btn-primary btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" target="_blank"><i class="fas fa-cloud-download-alt"></i> Download Now</a>
                     </div><!--//cta-container-->
@@ -77,8 +77,8 @@
                             <div class="icon-holder">
                                 <i class="icon fa fa-paper-plane"></i>
                             </div><!--//icon-holder-->
-                            <h3 class="title">Quick Start</h3>
-                            <p class="intro">Demo example, consectetuer adipiscing elit</p>
+                            <h3 class="title">Inicio del tour</h3>
+                            <p class="intro">Vista rapida a los recursos de la pagina</p>
                             
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -87,8 +87,8 @@
                             <div class="icon-holder">
                                 <span aria-hidden="true" class="icon icon_puzzle_alt"></span>
                             </div><!--//icon-holder-->
-                            <h3 class="title">Components</h3>
-                            <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                            <h3 class="title">Componentes y APIS</h3>
+                            <p class="intro">Codigo de algunos compenentes y apis que utilizo</p>
                             
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -97,8 +97,8 @@
                             <div class="icon-holder">
                                 <span aria-hidden="true" class="icon icon_datareport_alt"></span>
                             </div><!--//icon-holder-->
-                            <h3 class="title">Charts</h3>
-                            <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                            <h3 class="title">Estadisticas</h3>
+                            <p class="intro">Monitorear concurrencia de proyectos</p>
                             
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -107,8 +107,8 @@
                             <div class="icon-holder">
                                 <span aria-hidden="true" class="icon icon_lifesaver"></span>
                             </div><!--//icon-holder-->
-                            <h3 class="title">FAQs</h3>
-                            <p class="intro">Layout for FAQ page. Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                            <h3 class="title">Preguntas y respuestas</h3>
+                            <p class="intro">Hace uso del correo para preguntas y respuetas</p>
                             
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -117,8 +117,8 @@
                             <div class="icon-holder">
                                 <span aria-hidden="true" class="icon icon_genius"></span>
                             </div><!--//icon-holder-->
-                            <h3 class="title">Showcase</h3>
-                            <p class="intro">Layout for showcase page. Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
+                            <h3 class="title">Proyectos</h3>
+                            <p class="intro">Todos los repositorios y proyectos </p>
                             
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -127,8 +127,8 @@
                             <div class="icon-holder">
                                 <span aria-hidden="true" class="icon icon_gift"></span>
                             </div><!--//icon-holder-->
-                            <h3 class="title">License &amp; Credits</h3>
-                            <p class="intro">Layout for license &amp; credits page. Consectetuer adipiscing elit.</p>
+                            <h3 class="title">Beneficios </h3>
+                            <p class="intro"Beneficios y creditos</p>
                            
                         </div><!--//item-inner-->
                     </div><!--//item-->

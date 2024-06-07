@@ -1,6 +1,6 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
+//require 'vendor/autoload.php';
 
 // Obtener los datos del formulario
 $destinatario = $_POST['correo'];
@@ -29,6 +29,11 @@ if ($conn->connect_error) {
 function enviarCorreo($destinatario, $asunto, $mensaje) {
     global $conn;
 
+/*
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+
     // Enviar el correo
     $mail = new PHPMailer(true);
 
@@ -40,7 +45,7 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
         $mail->Username = 'luciano.poblete@virginiogomez.cl';
         $mail->Password = 'Hola.1560';
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Port = 25;
 
         $mail->setFrom('luciano.poblete@virginiogomez.cl', 'Luciano Poblete');
         $mail->addAddress($destinatario);
@@ -54,8 +59,8 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
     } catch (Exception $e) {
         echo "Error al enviar el correo: " . $mail->ErrorInfo;
     }
-   
-
+  */
+ 
     // Guardar el correo en la base de datos
     $sql = "INSERT INTO mensaje (mail, mensaje) VALUES ('$destinatario','$mensaje')";
     if ($conn->query($sql) === TRUE) {
