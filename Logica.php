@@ -4,8 +4,6 @@ $destinatario = $_POST['correo'];
 $asunto = "Este mensaje es para ti";
 $mensaje = "Hola, este es un mensaje de prueba.";
 
-echo "Funciona";
-exit();
 
 // Configuración de la base de datos
 $servername = "localhost";
@@ -26,7 +24,6 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
     global $conn;
 
     // Enviar el correo
-    // Aquí puedes agregar tu código para enviar el correo utilizando la función mail() u otra librería de envío de correos
     $headers = "From: tu_email@example.com" . "\r\n" .
                "Reply-To: tu_email@example.com" . "\r\n" .
                "X-Mailer: PHP/" . phpversion();
